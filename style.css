@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to right, #87CEFA, #6A5ACD);
+    color: #333;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.center-container {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px; 
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0069d9;
+}
+
+.custom-container {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-top: 1px solid #ddd;
+    margin-top: auto;
+}
+
+.alarm {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.alarm h4 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.alarm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.alarm input[type="time"],
+.alarm input[type="date"],
+.alarm input[type="checkbox"] {
+    margin-bottom: 10px;
+}
